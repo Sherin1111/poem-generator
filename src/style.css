@@ -1,0 +1,88 @@
+body {
+  font-family: fantasy;
+  background: linear-gradient(
+      45deg,
+      rgba(147, 165, 207, 0.6) 100%,
+      rgba(228, 239, 233, 0.6) 100%
+    ),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/172/594/original/Retro_illustration_chateau_vampire_%281%29.jpeg?1755879084");
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  color: #d46dc8f8;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 1.5;
+  color: #160935e0;
+  text-shadow: 0 0 1em blue, 0 0 0.2em #160935;
+}
+
+form {
+  padding: 30px;
+  background: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  font-family: fantasy;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.instruction {
+  padding: 16px;
+  border: 3px solid #3b4491;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #2f284c;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background: #3b4491;
+  color: #e2ede7;
+  border: none;
+  width: 100px;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px 24px;
+}
+
+.poem {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #160935e0;
+  background: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+  padding: 20px;
+  line-height: 2;
+  border-left: 5px solid #e2ede7;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9fd0f8;
+}
