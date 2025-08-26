@@ -33,16 +33,25 @@ h1 {
   text-shadow: 0 0 1em blue, 0 0 0.2em #160935;
 }
 
-form {
-  padding: 40px;
+.form-container {
   background: linear-gradient(45deg, #3f51a1 0%, #e4efe9 100%);
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 30px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  font-family: fantasy;
-  border-radius: 10px;
+}
+
+form {
   display: flex;
-  margin-bottom: 30px;
+}
+
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  font-size: 12px;
 }
 
 .instructions {
@@ -67,8 +76,8 @@ form {
 }
 
 .poem {
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
   color: #140537;
   background: linear-gradient(45deg, #3f51a1 0%, #e4efe9 100%);
   padding: 40px;
@@ -78,11 +87,29 @@ form {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+.hidden {
+  display: none;
+}
 
 footer {
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   color: #9fd0f8;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
